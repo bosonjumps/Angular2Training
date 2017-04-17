@@ -79,4 +79,7 @@ export class InventoryList implements OnInit, OnDestroy, AfterViewInit {
       }
     });
   }
+  clearCurrentItem() {
+    this.setCurrentItem(undefined);
+  }
 }
